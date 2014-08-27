@@ -1,0 +1,30 @@
+To Do List: Each person is responsible for updating their own tasks
+
+SNL
+	Kelley
+		Create separate test case script for comparison (wait till *.m files are improved)
+		Look into Simulink/SimMechanics linking with DLLs
+		
+	Sam
+		Create PTO library of different PTO configs
+
+NREL
+	Mike
+		add SWL or wave elevatopm to simulation
+	Ye
+		Consolidate wafo scripts and combine with SNL's Wave-Sim files (6/25/13)
+		Write Wave-Sim memo demonstrating time-series and spectra generation
+	Yi-Hsiang
+		
+	Adam
+		Replace geometry transforms in *.slx with a *.m file for cg locations, connection points. etc.
+		Clean up geometry subsystem in SimMechanics
+		Clean up hydroforce subsystem in SimMechanics
+		Compare WEC-Sim to experiments
+		Compare WEC-Sim to WaveDyn
+
+Other
+	Algebraic loop issue
+	Develop CPT and Oyster models in WEC-Sim
+	Library of representative WEC bodies and joints
+	Add inertia term for D-D drivetrain (hydraulics subystem breaks because of IF 	statements)

@@ -1,0 +1,113 @@
+
+WAMITLOG.TXT file from WAMIT run:  17-Mar-2013 23:29:19
+
+ Input file buoywamit.cfg       
+ ipltdat=5
+ maxscr=1024  (assign a maximum block of 1024*1024 RAM for scratch LHS)
+ ISOR=0       (omit ISOR in POT file, include source formulation)
+ ISOLVE=1     (use direct solver)
+ ISCATT=0     (solve for total diffraction potential, not scattering)
+ IQUAD=0      (omit IQUAD in POT file, use single-node quadrature)
+ ILOG=1       (omit ILOG in POT file, integrate log singularity)
+ IDIAG=0      (omit IDIAG in POT file, panel length based on area)
+ IRR=1        (omit IRR in POT file, irregular-frequency removal)
+ IPERIO=2     (input frequencies in radians per second)
+ ILOWHI=0     (use high-order panel method)
+ ILOWGDF=0    (write low order gdf)
+ IALTPOT=2
+ PANEL_SIZE=20.0 (average length of panel)
+ MONITR=0     (do not write FORCE output data to monitor)
+ NUMHDR=1     (write headers to numeric output files)
+ USERID_PATH=..\..\..\WAMIT   (directory for *.exe, *.dll, and userid.wam)
+
+POTEN run started:  17-Mar-2013 23:29:19
+
+ Input file buoywamit.pot       
+buoyWAMIT.pot -- Technip Semi, ajg .ms2 file type .gdf, ILOWHI=1, IRR=1
+50.                HBOT
+1           1                  IRAD, IDIFF
+ -42                            NPER          - Number of wave periods to be ana
+ -0.05 0.05                         PER           - List of wave periods [IPERIO
+  1                             NBETA         - Number of wave heading angles to
+0.0                             BETA          - List of wave heading angles rela
+ 2 NBODY
+buoyWAMITa.gdf
+ 0. 0. -22.4 0.0   XBODY(1-4)
+ 1  1  1  1  1  1               IMODE(1-6)
+0
+buoyWAMITb.gdf
+ 0. 0. -22.4 0.0   XBODY(1-4)
+ 1  1  1  1  1  1               IMODE(1-6)
+0
+
+ First    10 lines of input file buoyWAMITa.gdf      
+ Model buoyWAMIT
+ 1.000000  9.806650   ULEN, GRAV
+ 0 1   ISX, ISY
+1376  NPANC
+   2.8473400000000000       0.70657300000000001        17.754929618530273
+   2.9337000000000000        0.0000000000000000        17.184029618530275
+   2.9337000000000000        0.0000000000000000        18.189869618530274
+   2.9337000000000000        0.0000000000000000        18.189869618530274
+   1.5715600000000001        2.4772599999999998        16.898899618530272
+   1.0896399999999999        2.7238400000000000        17.776369618530275
+
+ First    10 lines of input file buoyWAMITb.gdf      
+ Model buoyWAMIT
+ 1.000000  9.806650   ULEN, GRAV
+ 0 1   ISX, ISY
+ 872  NPANC
+  -15.000000000000000        0.0000000000000000       -8.7048003814697275
+  -13.421099999999999        0.0000000000000000       -8.6000003814697266
+  -15.000000000000000        0.0000000000000000       -8.6000003814697266
+  -15.000000000000000        0.0000000000000000       -8.6000003814697266
+  -13.421099999999999        0.0000000000000000       -8.7048003814697275
+  -13.421099999999999        0.0000000000000000       -8.6000003814697266
+
+  Warning: IRR>0 but no interior free-surface for body=2
+
+
+  POTEN module run completed
+
+POTEN run completed:  18-Mar-2013 00:26:46
+
+FORCE run started:  18-Mar-2013 00:26:46
+
+ Input file buoywamit.frc       
+ buoyWAMIT.frc -- Technip Semi, ajg .ms2 file type .gdf, ILOWHI=1, IRR=1
+ 1    0    1    0    0    0    0    0    0   IOPTN(1-9)
+ 0                   VCG(1)
+ 0.000000      .0000000      .0000000
+ .0000000      0.000000      .0000000
+ .0000000      .0000000      0.000000        XPRDCT
+ 0                   VCG(2)
+ 0.000000      .0000000      .0000000
+ .0000000      0.000000      .0000000
+ .0000000      .0000000      0.000000        XPRDCT
+ 0                                           NBETAH
+ 0                                           NFIELD
+
+
+ Nondimensional inertia matrix for body N =   1
+
+  746.801      0.00000      0.00000      0.00000      0.00000    -0.110713E-02
+  0.00000      746.801      0.00000      0.00000      0.00000     0.542773    
+  0.00000      0.00000      746.801     0.110713E-02-0.542773      0.00000    
+  0.00000      0.00000     0.110713E-02  0.00000      0.00000      0.00000    
+  0.00000      0.00000    -0.542773      0.00000      0.00000      0.00000    
+-0.110713E-02 0.542773      0.00000      0.00000      0.00000      0.00000    
+
+ Nondimensional inertia matrix for body N =   2
+
+  73.9522      0.00000      0.00000      0.00000      0.00000     0.163745E-04
+  0.00000      73.9522      0.00000      0.00000      0.00000     0.228117E-04
+  0.00000      0.00000      73.9522    -0.163745E-04-0.228117E-04  0.00000    
+  0.00000      0.00000    -0.163745E-04  0.00000      0.00000      0.00000    
+  0.00000      0.00000    -0.228117E-04  0.00000      0.00000      0.00000    
+ 0.163745E-04 0.228117E-04  0.00000      0.00000      0.00000      0.00000    
+
+FORCE run completed:  18-Mar-2013 00:26:50
+
+  WAMIT run completed
+
+  See WARNING messages in ERRORP.LOG file 

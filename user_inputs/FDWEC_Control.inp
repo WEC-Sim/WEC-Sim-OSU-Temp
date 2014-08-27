@@ -1,0 +1,42 @@
+%-----  FDWEC Input File  ----------------------------------------------------------------
+% This file must strictly follow matlab syntax rules
+
+%----  WAMIT file names and directory  ---------------------------------------------------
+WAMIT.fileDir	= './WAMIT/'
+WAMIT.fileName	= 'buoywamit'
+
+%---- Water Properties -------------------------------------------------------------------
+density    = 1000
+g          = 9.81
+
+%---- Time step size --------------------------------------------------------------------
+dt = 0.1
+maxIt=4000
+
+%---- Wave Properties --------------------------------------------------------------------
+RegIregCon = 'Regular'
+
+%%---- Regular wave Properties -----------------------------------------------------------
+H   = 2.5
+T   = 8.37758
+
+%%---- Irregular wave Properties ---------------------------------------------------------
+NPERWaves  = 200
+Hs 		= 2.5
+Tp		= 10.5
+
+%%---- Irregular wave Source Sweep -------------------------------------------------------
+%waveSourceData       = 'HumboltdBay.inp'
+
+%----  Body properties ---------------------------------------------------
+%PTODir	  = 5
+%DOF(:,1)  =[0 0 0 0 1 0]
+%Cd(3,1)   =8
+%area(3,1) =50/4*(25.25^4-0.25^4)
+%HGRes(3,1)=(density*g*2488.21*12.779692-density*2488.21/4*g*12.779692)
+%mass(1)   =density/4/3*2488.21*25^2
+
+%----  PTO Control ---------------------------------------------------
+%CPTO      = 'optimal'   % unit: kNs/m
+%CPTO_min  = 1000000   	% unit: kNs/m
+%KPTO      = 0 			% unit: kN/m
