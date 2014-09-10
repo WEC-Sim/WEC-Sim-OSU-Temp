@@ -141,7 +141,7 @@ classdef bodyClass<handle
                         bodyTemp(kk) = irrExcitation(bodyTemp(kk),waves);
                         bodyTemp(kk) = irfInfAddedMassAndDamping(bodyTemp(kk),simu);
                     otherwise
-                        error('Only noWave, noWaveCIC, regular, regularCIC, irregular, and irregularImport waves are supported at this time')
+                        error('Only noWave, regular, noWaveCIC, regularCIC, irregular, and irregularImport waves are supported at this time')
                 end
             end
         end
