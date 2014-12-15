@@ -37,7 +37,7 @@
 % Title
 % You need to remove 'DRAFT: ' in the title for the final submitted version.
 
-\title{DRAFT: Development of PTO-Sim: a power performance module for the open-source wave energy converter code WEC-Sim}
+\title{Development of PTO-Sim: a power performance module for the open-source wave energy converter code WEC-Sim}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -158,7 +158,7 @@ The hydraulic PTO model begins with the continuity equation for a compressible f
 \dot{p}_B=\frac{\beta_e}{V_o+A_pz}(-A_p\dot{z}-\dot{V_2}+\dot{V_3}) 
 \end{equation}
 
-The effective bulk modulus of the hydraulic fluid is $\beta_e$, $V_o$ is the initial volume of the cylinder,and $A_p$ is the piston area. The volumetric flows through valves 1-4 are represented by $\dot{V}_1$ through $\dot{V}_4$. The piston and buoy are rigidly connected, and their movement with respect to the spar is the input to the 
+The effective bulk modulus of the hydraulic fluid is $\beta_e$, $V_o$ is the initial volume of the cylinder, and $A_p$ is the piston area. The volumetric flows through valves 1-4 are represented by $\dot{V}_1$ through $\dot{V}_4$. The piston and buoy are rigidly connected, and their movement with respect to the spar is the input to the 
 PTO system. This relative movement is the velocity of $\dot{z}$.
 
 The four valves in the rectifying circuit are each modeled using the orifice equation: 
@@ -176,8 +176,8 @@ The valve area is modeled as a variable area poppet valve, with the equation:
 A_v &=& A_{min}+\frac{A_{max}-A_{min}}{2}(1+\tanh(k_2(p_j-p_k)))\nonumber\\
 && +\frac{p_{max}+p_{min}}{2}
 \end{eqnarray}
-%
-$A_{max}$ and $A_{min}$ are the maximum and minimum valve areas. The valve begins to open when the cracking pressure, $p_{min}$ is reached. The maximum pressure, $p_{max}$ is the pressure for which the valve is fully opened.  The $tanh$ function in this equation provides a smooth approximation to the step operation of the 
+
+\noindent where $A_{max}$ and $A_{min}$ are the maximum and minimum valve areas. The valve begins to open when the cracking pressure, $p_{min}$ is reached. The maximum pressure, $p_{max}$ is the pressure for which the valve is fully opened.  The $tanh$ function in this equation provides a smooth approximation to the step operation of the 
 valve. This is accomplished by choosing $k_2$ such that at $p_{min}$ the valve area is equal to $A_{min}$. The behavior of the valve is shown in Fig. 5. 
 
 \begin{figure}[t]
@@ -203,7 +203,7 @@ The flow into the accumulators ``C" and ``D" are, respectively:
 \dot{V}_D=\alpha D \omega-\dot{V}_3-\dot{V}_4 
 \end{equation}
 
-where $\alpha$ is the swashplate angle ratio, which is the instantaneous motor displacement divided by the the maximum motor displacement. It is used as a control for the volumetric flow across the motor. $D$ is the nominal motor displacement, and $\omega$ is the rotational speed of the generator. 
+\noindent where $\alpha$ is the swashplate angle ratio, which is the instantaneous motor displacement divided by the the maximum motor displacement. It is used as a control for the volumetric flow across the motor. $D$ is the nominal motor displacement, and $\omega$ is the rotational speed of the generator. 
 For this hydraulic system the swashplate angle ratio is fixed for the simulated sea state. 
 
 The pressure in each accumulator is dependent on the instantaneous volume of oil in the accumulator:
@@ -212,14 +212,14 @@ The pressure in each accumulator is dependent on the instantaneous volume of oil
 p_i=\frac{p_{i0}}{(1-\frac{V_i}{V_{i0}})^{1.4}}
 \end{equation}
 
-where $p_{i0}$ is the precharge pressure and $V_{i0}$ is the total volume of the accumulator. 
+\noindent where $p_{i0}$ is the precharge pressure and $V_{i0}$ is the total volume of the accumulator. 
 
 Because the motor axle and generator axle are rigidly connected, they have the same torque and opposite rotational direction. This condition leads to the state equation:
 
 \begin{equation}
 \dot{\omega}=\frac{1}{J_t}(\alpha D (p_C-p_D)-b_g \omega-b_f \omega)
 \end{equation}
-%
+
 The generator torque is represented by $b_g$$\omega$, $b_f$$\omega$ is the frictional damping, and $J_t$ is the total mass moment of inertia of the motor/generator drive train.  The frictional damping was chosen to give the generator a 95\% efficiency at a speed of 2400 rpm. 
 
 Finally, the PTO force is described by the A-B pressure differential and the piston area under pressure, $A_p$:
@@ -228,7 +228,7 @@ Finally, the PTO force is described by the A-B pressure differential and the pis
 F_{pto}=(p_A-p_B)A_p
 \end{equation}
 
-These equations are contained in PTO-Sim library blocks that represent physical components of the hydraulic PTO system. The complete hydraulic PTO model as implemented using PTO-Sim is shown in Fig.~\ref{Hyd}. This demonstrates the ease of using PTO-Sim to create a hydraulic PTO system model like the one shown in Fig.\ref{HydPTO}.
+These equations are contained in PTO-Sim library blocks that represent physical components of the hydraulic PTO system. The complete hydraulic PTO model as implemented using PTO-Sim is shown in Fig.~\ref{Hyd}. This demonstrates the ease of using PTO-Sim to create a hydraulic PTO system model like the one shown in Fig. \ref{HydPTO}.
 
 \subsubsection*{Simulations.}
 
@@ -298,7 +298,7 @@ The direct drive PTO model presents in this paper is based on \cite{prudell2009n
 \begin{figure}[t]
     \centering
     \includegraphics[width=1\columnwidth]{Images/PAWECSmithsonian}
-    \caption{Direct Drive: OSU L10. This figure shows the stationary generator coils located inside the spar and the sliding magnet assembly coupled to the float.  (Image courtesy of Smithsonian Magazine \cite{Rusch:2009aa}.} 
+    \caption{Direct Drive: OSU L10. This figure shows the stationary generator coils located inside the spar and the sliding magnet assembly coupled to the float.  (Image courtesy of Smithsonian Magazine) \cite{Rusch:2009aa}.} 
     \label{L10}
     \end{figure}
 
@@ -320,7 +320,7 @@ The equivalent electrical circuit (Fig.~\ref{EMF}) shows the relationship betwee
 
 \subsubsection*{Simulations.}
  
-The PTO was developed and verified with the use of regular waves. Once verified, irregular waves are applied, and the analysis can be focused on understanding the electrical power generated by the system. The same zdot is used as an input for the direct drive PTO model as was used for the hydraulic PTO, see Fig.~\ref{HydZdot}. 
+The PTO was developed and verified with the use of regular waves. Once verified, irregular waves are applied, and the analysis can be focused on understanding the electrical power generated by the system. The same ``zDot" is used as an input for the direct drive PTO model as was used for the hydraulic PTO, see Fig.~\ref{HydZdot}. 
 
 %Note (Kelley): The below statement is not true because zdot represents the relative motion between the float and the spar
 
@@ -333,7 +333,7 @@ The PTO was developed and verified with the use of regular waves. Once verified,
 %    %\label{fig-freq-comparison}
 %    \end{figure}
 
-The PTO force, shown in Fig.~\ref{DD_Fpto}, produced by the ``Electric Machine" model directly follows zDot because of the nature of the direct drive design. Figures~\ref{voltage} and~\ref{current} show voltage and current in the external load. It should be noted that the magnitude of the voltage and current depends on the wave climate, and the WEC design parameters \cite{prudell2009novel}.  The absorbed and electric power are shown in Fig.~\ref{DDP}. 
+The PTO force, shown in Fig.~\ref{DD_Fpto}, produced by the ``Electric Machine" model directly follows ``zDot" because of the nature of the direct drive design. Figures~\ref{voltage} and~\ref{current} show voltage and current in the external load. It should be noted that the magnitude of the voltage and current depends on the wave climate, and the WEC design parameters \cite{prudell2009novel}.  The absorbed and electric power are shown in Fig.~\ref{DDP}. 
 
 \begin{figure}[t]
     \centering
