@@ -1,0 +1,612 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.24)  26 FEB 2015 20:13
+entering extended mode
+**OMAE2015-42074.tex
+
+("Z:\Windows.Documents\My Documents\Grad\GRA\OMAEFINAL\OMAE2015-42074 PTO-Sim F
+inal Draft\OMAE2015-42074.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("Z:\Windows.Documents\My Documents\Grad\GRA\OMAEFINAL\OMAE2015-42074 PTO-Sim F
+inal Draft\asme2e.cls"
+Document Class: asme2e 2001/2/14 v2.0 Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Ten Point
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 308.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\tempbox=\box26
+\c@figure=\count85
+\c@table=\count86
+\@authcnt=\count87
+\@tmpcnt=\count88
+\bibindent=\dimen102
+\tempbox=\box27
+\tminute=\count89
+\thour=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(C:\Users\sor.EECS.003\AppData\Roaming\MiKTeX\2.9\tex\latex\dblfloatfix\dblfloa
+tfix.sty
+Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+\@dblbotnum=\count92
+\c@dblbotnumber=\count93
+)
+(C:\Users\sor.EECS.003\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \citen on input line 81.
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("Z:\Windows.Documents\My Documents\Grad\GRA\OMAEFINAL\OMAE2015-42074 PTO-Sim F
+inal Draft\OMAE2015-42074.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\big@size=\dimen105
+
+(C:\Users\sor.EECS.003\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen106
+\scratchbox=\box28
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen107
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 68
+.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 68
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 68
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 68
+.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+
+Underfull \hbox (badness 10000) detected at line 68
+[]
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+
+Overfull \vbox (16.63263pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 85.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!
+
+]
+<Images/PCC_HydDD.png, id=10, 839.2956pt x 614.295pt>
+File: Images/PCC_HydDD.png Graphic file (type png)
+
+<use Images/PCC_HydDD.png>
+Package pdftex.def Info: Images/PCC_HydDD.png used on input line 94.
+(pdftex.def)             Requested size: 502.04985pt x 367.45503pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 95.
+
+<Images/RM3_update.pdf, id=12, 885.22491pt x 539.8611pt>
+File: Images/RM3_update.pdf Graphic file (type pdf)
+
+<use Images/RM3_update.pdf>
+Package pdftex.def Info: Images/RM3_update.pdf used on input line 110.
+(pdftex.def)             Requested size: 257.46187pt x 157.00877pt.
+ <Images/TRL.png, id=13, 882.29625pt x 632.3625pt>
+File: Images/TRL.png Graphic file (type png)
+
+<use Images/TRL.png>
+Package pdftex.def Info: Images/TRL.png used on input line 117.
+(pdftex.def)             Requested size: 257.46187pt x 184.52867pt.
+
+<Images/HydraulicPTO.png, id=14, 892.08281pt x 539.01375pt>
+File: Images/HydraulicPTO.png Graphic file (type png)
+
+<use Images/HydraulicPTO.png>
+Package pdftex.def Info: Images/HydraulicPTO.png used on input line 143.
+(pdftex.def)             Requested size: 257.46187pt x 155.56152pt.
+ [2] [3 <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PT
+O-Sim Final Draft/Images/PCC_HydDD.png>]
+<Images/ValveBehavior.png, id=26, 905.63344pt x 715.92468pt>
+File: Images/ValveBehavior.png Graphic file (type png)
+
+<use Images/ValveBehavior.png>
+Package pdftex.def Info: Images/ValveBehavior.png used on input line 178.
+(pdftex.def)             Requested size: 257.46187pt x 203.52722pt.
+Package epstopdf Info: Source file: <Images/ptomodel.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 130629 bytes
+(epstopdf)             Output file: <Images/ptomodel-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 25637 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ptomodel-eps-convert
+ed-to.pdf Images/ptomodel.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/ptomodel-eps-converted-to.pdf, id=27, 1674.255pt x 384.43625pt>
+File: Images/ptomodel-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/ptomodel-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ptomodel-eps-converted-to.pdf used on input lin
+e 185.
+(pdftex.def)             Requested size: 514.92374pt x 118.22957pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Si
+m Final Draft/Images/RM3_update.pdf> <Z:/Windows.Documents/My Documents/Grad/GR
+A/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/TRL.png> <Z:/Windows.Docu
+ments/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images
+/HydraulicPTO.png> <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE20
+15-42074 PTO-Sim Final Draft/Images/ValveBehavior.png>]
+Package epstopdf Info: Source file: <Images/zDot.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 25436 bytes
+(epstopdf)             Output file: <Images/zDot-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 16660 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/zDot-eps-converted-t
+o.pdf Images/zDot.eps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/zDot-eps-converted-to.pdf, id=39, 257.96375pt x 219.82124pt>
+File: Images/zDot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/zDot-eps-converted-to.pdf>
+Package pdftex.def Info: Images/zDot-eps-converted-to.pdf used on input line 23
+7.
+(pdftex.def)             Requested size: 257.46187pt x 219.41483pt.
+Package epstopdf Info: Source file: <Images/Power.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 57678 bytes
+(epstopdf)             Output file: <Images/Power-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 24470 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/Power-eps-converted-
+to.pdf Images/Power.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/Power-eps-converted-to.pdf, id=40, 257.96375pt x 219.82124pt>
+File: Images/Power-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/Power-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Power-eps-converted-to.pdf used on input line 2
+44.
+(pdftex.def)             Requested size: 257.46187pt x 219.41483pt.
+Package epstopdf Info: Source file: <Images/ptoForce.eps>
+(epstopdf)                    date: 2014-11-24 16:58:13
+(epstopdf)                    size: 26138 bytes
+(epstopdf)             Output file: <Images/ptoForce-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 13999 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ptoForce-eps-convert
+ed-to.pdf Images/ptoForce.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/ptoForce-eps-converted-to.pdf, id=41, 257.96375pt x 219.82124pt>
+File: Images/ptoForce-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/ptoForce-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ptoForce-eps-converted-to.pdf used on input lin
+e 255.
+(pdftex.def)             Requested size: 257.46187pt x 219.41483pt.
+Package epstopdf Info: Source file: <Images/Pressures.eps>
+(epstopdf)                    date: 2014-11-24 16:58:09
+(epstopdf)                    size: 65055 bytes
+(epstopdf)             Output file: <Images/Pressures-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 27859 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/Pressures-eps-conver
+ted-to.pdf Images/Pressures.eps>
+(epstopdf)             \includegraphics on input line 262.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/Pressures-eps-converted-to.pdf, id=42, 250.9375pt x 219.82124pt>
+File: Images/Pressures-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/Pressures-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Pressures-eps-converted-to.pdf used on input li
+ne 262.
+(pdftex.def)             Requested size: 257.46187pt x 225.56308pt.
+ [5 <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Si
+m Final Draft/Images/ptomodel-eps-converted-to.pdf>] [6 <Z:/Windows.Documents/M
+y Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/zDot-e
+ps-converted-to.pdf> <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE
+2015-42074 PTO-Sim Final Draft/Images/Power-eps-converted-to.pdf> <Z:/Windows.D
+ocuments/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Ima
+ges/ptoForce-eps-converted-to.pdf> <Z:/Windows.Documents/My Documents/Grad/GRA/
+OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/Pressures-eps-converted-to.
+pdf>]
+<Images/PAWECSmithsonian.png, id=103, 650.43pt x 482.55281pt>
+File: Images/PAWECSmithsonian.png Graphic file (type png)
+
+<use Images/PAWECSmithsonian.png>
+Package pdftex.def Info: Images/PAWECSmithsonian.png used on input line 299.
+(pdftex.def)             Requested size: 257.46187pt x 191.01492pt.
+
+
+pdfTeX warning: pdflatex.exe (file Z:/Windows.Documents/My Documents/Grad/GRA/O
+MAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/DirectDriveSimulink.pdf): PD
+F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Images/DirectDriveSimulink.pdf, id=104, 463.02585pt x 234.42882pt>
+File: Images/DirectDriveSimulink.pdf Graphic file (type pdf)
+
+<use Images/DirectDriveSimulink.pdf>
+Package pdftex.def Info: Images/DirectDriveSimulink.pdf used on input line 307.
+
+(pdftex.def)             Requested size: 257.46187pt x 130.35634pt.
+
+<Images/Slots_n_Magnets_Linear.pdf, id=105, 325.3454pt x 478.81987pt>
+File: Images/Slots_n_Magnets_Linear.pdf Graphic file (type pdf)
+
+<use Images/Slots_n_Magnets_Linear.pdf>
+Package pdftex.def Info: Images/Slots_n_Magnets_Linear.pdf used on input line 3
+16.
+(pdftex.def)             Requested size: 257.46187pt x 378.9138pt.
+
+<Images/BackEMFCkt.pdf, id=106, 558.67111pt x 338.03088pt>
+File: Images/BackEMFCkt.pdf Graphic file (type pdf)
+
+<use Images/BackEMFCkt.pdf>
+Package pdftex.def Info: Images/BackEMFCkt.pdf used on input line 325.
+(pdftex.def)             Requested size: 257.46187pt x 155.77977pt.
+Package epstopdf Info: Source file: <Images/DDFpto.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 31261 bytes
+(epstopdf)             Output file: <Images/DDFpto-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 20453 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/DDFpto-eps-converted
+-to.pdf Images/DDFpto.eps>
+(epstopdf)             \includegraphics on input line 344.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/DDFpto-eps-converted-to.pdf, id=107, 257.96375pt x 219.82124pt>
+File: Images/DDFpto-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/DDFpto-eps-converted-to.pdf>
+Package pdftex.def Info: Images/DDFpto-eps-converted-to.pdf used on input line 
+344.
+(pdftex.def)             Requested size: 257.46187pt x 219.41483pt.
+Package epstopdf Info: Source file: <Images/DDVabc.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 71297 bytes
+(epstopdf)             Output file: <Images/DDVabc-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 51139 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/DDVabc-eps-converted
+-to.pdf Images/DDVabc.eps>
+(epstopdf)             \includegraphics on input line 351.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/DDVabc-eps-converted-to.pdf, id=108, 258.9675pt x 213.79875pt>
+File: Images/DDVabc-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/DDVabc-eps-converted-to.pdf>
+Package pdftex.def Info: Images/DDVabc-eps-converted-to.pdf used on input line 
+351.
+(pdftex.def)             Requested size: 257.46187pt x 212.57811pt.
+Package epstopdf Info: Source file: <Images/DDIabcZoom.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 70440 bytes
+(epstopdf)             Output file: <Images/DDIabcZoom-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 50251 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/DDIabcZoom-eps-conve
+rted-to.pdf Images/DDIabcZoom.eps>
+(epstopdf)             \includegraphics on input line 358.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/DDIabcZoom-eps-converted-to.pdf, id=109, 251.94125pt x 213.79875pt>
+File: Images/DDIabcZoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/DDIabcZoom-eps-converted-to.pdf>
+Package pdftex.def Info: Images/DDIabcZoom-eps-converted-to.pdf used on input l
+ine 358.
+(pdftex.def)             Requested size: 257.46187pt x 218.48615pt.
+Package epstopdf Info: Source file: <Images/normDDPabsPelec.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 49261 bytes
+(epstopdf)             Output file: <Images/normDDPabsPelec-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 28204 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/normDDPabsPelec-eps-
+converted-to.pdf Images/normDDPabsPelec.eps>
+(epstopdf)             \includegraphics on input line 365.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/normDDPabsPelec-eps-converted-to.pdf, id=110, 253.94875pt x 219.82124pt
+>
+File: Images/normDDPabsPelec-eps-converted-to.pdf Graphic file (type pdf)
+ <use Images/normDDPabsPelec-eps-converted-to.pdf>
+Package pdftex.def Info: Images/normDDPabsPelec-eps-converted-to.pdf used on in
+put line 365.
+(pdftex.def)             Requested size: 257.46187pt x 222.86966pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Si
+m Final Draft/Images/PAWECSmithsonian.png> <Z:/Windows.Documents/My Documents/G
+rad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/DirectDriveSimulink
+.pdf, page is rotated 90 degrees> <Z:/Windows.Documents/My Documents/Grad/GRA/O
+MAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/Slots_n_Magnets_Linear.pdf>]
+Package epstopdf Info: Source file: <Images/HDYnDDelecPower.eps>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 41276 bytes
+(epstopdf)             Output file: <Images/HDYnDDelecPower-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-02-26 10:58:52
+(epstopdf)                    size: 18474 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/HDYnDDelecPower-eps-
+converted-to.pdf Images/HDYnDDelecPower.eps>
+(epstopdf)             \includegraphics on input line 384.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/HDYnDDelecPower-eps-converted-to.pdf, id=130, 253.94875pt x 219.82124pt
+>
+File: Images/HDYnDDelecPower-eps-converted-to.pdf Graphic file (type pdf)
+ <use Images/HDYnDDelecPower-eps-converted-to.pdf>
+Package pdftex.def Info: Images/HDYnDDelecPower-eps-converted-to.pdf used on in
+put line 384.
+(pdftex.def)             Requested size: 257.46187pt x 222.86966pt.
+ [8 <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Si
+m Final Draft/Images/BackEMFCkt.pdf> <Z:/Windows.Documents/My Documents/Grad/GR
+A/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/DDFpto-eps-converted-to.p
+df> <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Si
+m Final Draft/Images/DDVabc-eps-converted-to.pdf> <Z:/Windows.Documents/My Docu
+ments/Grad/GRA/OMAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/DDIabcZoom-e
+ps-converted-to.pdf>]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+("Z:\Windows.Documents\My Documents\Grad\GRA\OMAEFINAL\OMAE2015-42074 PTO-Sim F
+inal Draft\OMAE2015-42074.bbl" [9 <Z:/Windows.Documents/My Documents/Grad/GRA/O
+MAEFINAL/OMAE2015-42074 PTO-Sim Final Draft/Images/normDDPabsPelec-eps-converte
+d-to.pdf> <Z:/Windows.Documents/My Documents/Grad/GRA/OMAEFINAL/OMAE2015-42074 
+PTO-Sim Final Draft/Images/HDYnDDelecPower-eps-converted-to.pdf>]
+Underfull \hbox (badness 2644) in paragraph at lines 45--47
+[]\OT1/ptm/m/n/10 D. N. Ver-i-tas, ``Rec-om-mended prac-tice dnv-rp-a203--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\OT1/ptm/m/n/10 ``WHTP ma-rine hy-droki-netic tech-nolo-gies database:
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 75--79
+\OT1/ptm/m/it/10 Ex-po-si-tion, 2009. ECCE 2009. IEEE\OT1/ptm/m/n/10 , pp. 3641
+--3646,
+ []
+
+) [10
+
+]
+("Z:\Windows.Documents\My Documents\Grad\GRA\OMAEFINAL\OMAE2015-42074 PTO-Sim F
+inal Draft\OMAE2015-42074.aux") ) 
+Here is how much of TeX's memory you used:
+ 2110 strings out of 493921
+ 32291 string characters out of 3144855
+ 89750 words of memory out of 3000000
+ 5315 multiletter control sequences out of 15000+200000
+ 44666 words of font info for 89 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,11n,23p,1318b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
+vips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
+Users/sor.EECS.003/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on OMAE2015-42074.pdf (10 pages, 2786155 bytes).
+PDF statistics:
+ 196 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+
