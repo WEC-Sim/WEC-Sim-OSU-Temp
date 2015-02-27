@@ -1,5 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: OMAE2015-42074.aux
-The style file: asmems4.bst
+The style file: ieeetr.bst
 Database file #1: ptosimbib.bib
 Warning--entry type for "wecsim" isn't style-file defined
 --line 11 of file ptosimbib.bib
@@ -8,10 +8,14 @@ I was expecting a `,' or a `}'---line 16 of file ptosimbib.bib
  :  note      = "See also URL \verb+http://en.openei.org/wiki/WEC-Sim+",}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "rmp" isn't style-file defined
+--line 70 of file ptosimbib.bib
+I was expecting a `,' or a `}'---line 76 of file ptosimbib.bib
+ : 
+ : @article{reed2010accelerating,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "eere" isn't style-file defined
 --line 95 of file ptosimbib.bib
-Warning--I didn't find a database entry for "rmp"
-Warning--empty year in wecsim
 Warning--empty journal in veritas2001recommended
-Warning--empty year in eere
-(There was 1 error message)
+(There were 2 error messages)

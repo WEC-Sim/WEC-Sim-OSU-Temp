@@ -1,90 +1,79 @@
 \begin{thebibliography}{10}
 
 \bibitem{wecsim}
-{WEC}-sim.
+{WEC}-Sim. Version 1.0, http://en.openei.org/wiki/WEC-Sim, [Accessed June 2014].
 
 \bibitem{yu2014design}
-{Y. Yu}, {Ye Li}, {Kathleen Hallett}, and {Chad Hotimsky}, 2014.
-\newblock ``Design and analysis for a floating oscillating surge wave energy
-  converter''.
-\newblock In Proceedings of {OMAE} 2014.
+{Y. Yu}, {Ye Li}, {Kathleen Hallett}, and {Chad Hotimsky}, ``Design and
+  analysis for a floating oscillating surge wave energy converter,'' in {\em
+  Proceedings of {OMAE} 2014}, (San Francisco, {CA}), 2014.
 
 \bibitem{lawson2014implementing}
 {MJ Lawson}, {Y. Yu}, {Adam Nelessen}, {Kelley Ruehl}, and {Carlos Michelen},
-  2014.
-\newblock ``Implementing nonlinear buoyancy and excitation forces in the
-  {WEC}-sim wave energy converter modeling tool''.
-\newblock In Proceedings of {OMAE} 2014.
+  ``Implementing nonlinear buoyancy and excitation forces in the {WEC}-sim wave
+  energy converter modeling tool,'' in {\em Proceedings of {OMAE} 2014}, (San
+  Francisco, {CA}), 2014.
 
 \bibitem{ruehl2014preliminary}
 {Kelley Ruehl}, {Carlos Michelen}, {Samuel Kanner}, {Michael Lawson}, and {Y.
-  Yu}, 2014.
-\newblock ``Preliminary verification and validation of {WEC}-sim, an
-  open-source wave energy converter design tool''.
-\newblock In Proceedings of {OMAE} 2014.
+  Yu}, ``Preliminary verification and validation of {WEC}-sim, an open-source
+  wave energy converter design tool,'' in {\em Proceedings of {OMAE} 2014},
+  (San Francisco, {CA}), 2014.
 
 \bibitem{yu2014development}
-{Y. Yu}, {Michael Lawson}, {Kelley Ruehl}, and {Carlos Michelen}, 2014.
-\newblock ``Development and demonstration of the {WEC}-sim wave energy
-  converter simulation tool''.
-\newblock In Proceedings of the 2nd Marine Energy Technology Symposium.
+{Y. Yu}, {Michael Lawson}, {Kelley Ruehl}, and {Carlos Michelen}, ``Development
+  and demonstration of the {WEC}-sim wave energy converter simulation tool,''
+  in {\em Proceedings of the 2nd Marine Energy Technology Symposium}, (Seattle,
+  {WA}, {USA}), 2014.
 
 \bibitem{yukio2014modeling}
-Kamizuru, Y., 2014.
-\newblock ``Development of hydrostatic drive trains for wave energy
-  converters''.
-\newblock PhD thesis, RWTH Aachen University, Germany.
+Y.~Kamizuru, {\em Development of Hydrostatic Drive Trains for Wave Energy
+  Converters}.
+\newblock PhD thesis, RWTH Aachen University, Germany, 2014.
 
 \bibitem{reed2010accelerating}
-Reed, M., Bagbey, R., Moreno, A., Ramsey, T., and Rieks, J., 2010.
-\newblock ``Accelerating the us marine and hydrokinetic technology development
-  through the application of technology readiness levels ({TRL}s)''.
-\newblock {\em United States Dep. Energy ?technology Readiness Levels {TRL}s}.
+M.~Reed, R.~Bagbey, A.~Moreno, T.~Ramsey, and J.~Rieks, ``Accelerating the us
+  marine and hydrokinetic technology development through the application of
+  technology readiness levels ({TRL}s),'' {\em Energy Ocean}, 2010.
 
 \bibitem{ruehl2012wave}
-Ruehl, K., and Bull, D., 2012.
-\newblock ``Wave energy development roadmap: design to commercialization''.
-\newblock In Oceans, IEEE, pp.~1--10.
+K.~Ruehl and D.~Bull, ``Wave energy development roadmap: design to
+  commercialization,'' in {\em Oceans}, IEEE, 2012.
 
 \bibitem{veritas2001recommended}
-Veritas, D.~N., 2001.
-\newblock ``Recommended practice dnv-rp-a203--?qualification procedures for new
-  technology?''.
+D.~N. Veritas, ``Recommended practice dnv-rp-a203--qualification procedures
+  for new technology,'' 2001.
 
 \bibitem{eere}
-{WHTP} marine hydrokinetic technologies database: Project profile.
+{WHTP} marine hydrokinetic technologies database: Project profile, http://www1.eere.energy.gov/water/hydrokinetic [Accessed Dec. 2014].
+
+\bibitem{rmp}
+Sandia national laboratories: Reference model project (rmp), http://energy.sandia.gov/energy/renewable-energy/water-power/reference-model-project-rmp/ [Accessed Dec. 2014].
 
 \bibitem{casey2013modeling}
-Casey, S., 2013.
-\newblock ``Modeling, simulation, and analysis of two hydraulic power take-off
-  systems for wave energy conversion''.
-\newblock Master's thesis, Oregon State University, Corvallis, OR.
+S.~Casey, ``Modeling, simulation, and analysis of two hydraulic power take-off
+  systems for wave energy conversion,'' Master's thesis, Oregon State
+  University, Corvallis, OR, 2013.
 
 \bibitem{merritthydraulic}
-Merritt, H.~E., 1967.
-\newblock {\em Hydraulic control systems}.
-\newblock John Wiley.
+H.~E. Merritt, {\em Hydraulic control systems}.
+\newblock John Wiley, 1967.
 
 \bibitem{falnes2005ocean}
-Falnes, J., 2005.
-\newblock {\em Ocean waves and oscillating systems}.
-\newblock Cambridge University Press.
+J.~Falnes, {\em Ocean waves and oscillating systems}.
+\newblock Cambridge University Press, 2005.
 
 \bibitem{mohan2001advanced}
-Mohan, N., 2001.
-\newblock ``Advanced electric drives''.
-\newblock {\em Minneapolis: MNPERE}.
+N.~Mohan, ``Advanced electric drives,'' {\em Minneapolis: MNPERE}, 2001.
 
 \bibitem{Rusch:2009aa}
-Rusch, E., 2009.
-\newblock ``Catching a wave, powering an electrical grid?''.
-\newblock {\em Smithsonian Magazine}, July.
+E.~Rusch, ``Catching a wave, powering an electrical grid?,'' {\em Smithsonian
+  Magazine}, July 2009.
 
 \bibitem{prudell2009novel}
-Prudell, J., Stoddard, M., Brekken, T., and von Jouanne, A., 2009.
-\newblock ``A novel permanent magnet tubular linear generator for ocean wave
-  energy''.
-\newblock In Energy Conversion Congress and Exposition, 2009. ECCE 2009. IEEE,
-  IEEE, pp.~3641--3646.
+J.~Prudell, M.~Stoddard, T.~Brekken, and A.~von Jouanne, ``A novel permanent
+  magnet tubular linear generator for ocean wave energy,'' in {\em Energy
+  Conversion Congress and Exposition, 2009. ECCE 2009. IEEE}, pp.~3641--3646,
+  IEEE, 2009.
 
 \end{thebibliography}
