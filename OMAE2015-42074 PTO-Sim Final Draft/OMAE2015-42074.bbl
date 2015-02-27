@@ -29,6 +29,12 @@
   converter simulation tool''.
 \newblock In Proceedings of the 2nd Marine Energy Technology Symposium.
 
+\bibitem{yukio2014modeling}
+Kamizuru, Y., 2014.
+\newblock ``Development of hydrostatic drive trains for wave energy
+  converters''.
+\newblock PhD thesis, RWTH Aachen University, Germany.
+
 \bibitem{reed2010accelerating}
 Reed, M., Bagbey, R., Moreno, A., Ramsey, T., and Rieks, J., 2010.
 \newblock ``Accelerating the us marine and hydrokinetic technology development
@@ -48,9 +54,6 @@ Veritas, D.~N., 2001.
 \bibitem{eere}
 {WHTP} marine hydrokinetic technologies database: Project profile.
 
-\bibitem{sandia}
-Sandia national laboratories: Reference model project (rmp).
-
 \bibitem{casey2013modeling}
 Casey, S., 2013.
 \newblock ``Modeling, simulation, and analysis of two hydraulic power take-off
@@ -62,12 +65,6 @@ Merritt, H.~E., 1967.
 \newblock {\em Hydraulic control systems}.
 \newblock John Wiley.
 
-\bibitem{yukio2014modeling}
-Kamizuru, Y., 2014.
-\newblock ``Development of hydrostatic drive trains for wave energy
-  converters''.
-\newblock PhD thesis, RWTH Aachen University, Germany.
-
 \bibitem{falnes2005ocean}
 Falnes, J., 2005.
 \newblock {\em Ocean waves and oscillating systems}.
@@ -78,16 +75,16 @@ Mohan, N., 2001.
 \newblock ``Advanced electric drives''.
 \newblock {\em Minneapolis: MNPERE}.
 
+\bibitem{Rusch:2009aa}
+Rusch, E., 2009.
+\newblock ``Catching a wave, powering an electrical grid?''.
+\newblock {\em Smithsonian Magazine}, July.
+
 \bibitem{prudell2009novel}
 Prudell, J., Stoddard, M., Brekken, T., and von Jouanne, A., 2009.
 \newblock ``A novel permanent magnet tubular linear generator for ocean wave
   energy''.
 \newblock In Energy Conversion Congress and Exposition, 2009. ECCE 2009. IEEE,
   IEEE, pp.~3641--3646.
-
-\bibitem{Rusch:2009aa}
-Rusch, E., 2009.
-\newblock ``Catching a wave, powering an electrical grid?''.
-\newblock {\em Smithsonian Magazine}, July.
 
 \end{thebibliography}
