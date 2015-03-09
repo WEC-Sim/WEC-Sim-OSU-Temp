@@ -96,27 +96,18 @@ Version 1.0 of WEC-Sim, released in Summer 2014, models WECs as a combination of
     \label{PCC}
     \end{figure*}
 
-% Kelley - removed PTO-Sim library figure
-
-%\begin{figure}[t]
-%    \centering
-%    \includegraphics[width=1\columnwidth]{Images/SimulinkLibraryBrowser}
-%    \caption{PTO-Sim Simulink Library}
-%    \label{Lib}
-%    \end{figure}
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=1\columnwidth]{Images/TRL}
+    \caption{Breakdown of PCC types currently used by companies with TRL equal to or greater than 5.}
+    \label{PCC_Breakdown}
+    \end{figure}
 
 \begin{figure}[t]
     \centering
     \includegraphics[width=1\columnwidth]{Images/RM3_update}
     \caption{RM3 model with PTO-Sim (left) with the animation (right) [1].}
     \label{RM3}
-    \end{figure}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=1\columnwidth]{Images/TRL}
-    \caption{Breakdown of PCC types currently used by companies with TRL equal to or greater than 5.}
-    \label{PCC_Breakdown}
     \end{figure}
 
 A WEC's power conversion chain converts the mechanical motion of the WEC into electrical power \cite{yukio2014modeling}. The majority of WECs convert the energy from the wave into either relative linear motion, relative rotary motion, or fluid capture. This mechanical power is then converted into electrical power through the WEC's PCC. There are many different possible PCC configurations, as shown in Fig~\ref{PCC}. On the left side of the figure is the energy conversion mechanism, and on the right side are different PCC components with black arrows indicate possible PCC paths. The Color Legend refers to technological readiness level of each PCC component \cite{reed2010accelerating}\cite{ruehl2012wave}. This technological readiness level is based on the work in the DNV Recommended Practices which takes into consideration both the degree of the novelty of the technology and its intended application \cite{veritas2001recommended}. 
@@ -129,15 +120,14 @@ Based on a survey of the EERE WEC database, there are 34 WEC PCCs that are at a 
 
 WEC-Sim consists of a library of different WEC components, namely: bodies, joints and constraints. These WEC-Sim library blocks can be linked together to model the hydrodynamic behavior of different WEC devices. An example of applying the WEC-Sim code that used PTO-Sim to model the Reference Model 3 (RM3) point absorber is shown Fig.~\ref{RM3}. The RM3 was designed as part of the DOE-funded Reference Model Project \cite{rmp}. RM3 is a simple two-body heaving point absorber, consisting of a float and a damping plate. The float is connected to the damping plate through a translational joint which is actuated by the external PTO-Sim subsystem that simulates the PTO system. The damping plate is then connected to the seabed through a heave joint that constrains motion relative to the sea floor. This paper specifically focuses on what is inside the PTO-Sim block on the left side of Fig.~\ref{RM3}.
 
-PTO-Sim is developed in a similar manner to WEC-Sim, as a library of different PCC components. The PTO-Sim library has been developed based on the possible PCC configurations outlined in Fig~\ref{PCC}. In the following sections, the PTO-Sim component library will be used to model a hydraulic PTO, and a direct drive PTO. WEC PCCs are complex and device specific, meaning that while some PTO models can be built directly from the PTO-Sim library, others will require custom PCC library components. For the purpose of describing the coupling between PTO-Sim and WEC-Sim, refer to Fig.~\ref{RM3}, where the WEC-Sim relative displacement and velocity outputs (zRel and zDotRel respectively) are the PTO-Sim inputs. Similarly the PTO force (Fpto) is the WEC-Sim input, and the PTO-Sim output for both PTO architectures demonstrated in this paper.  These signals are what couple WEC-Sim and PTO-Sim together. In order to demonstrate the functionality of PTO-Sim, the results presented in the following sections use a relative velocity (zDotRel) from WEC-Sim to run the PTO-Sim simulations, but the PTO-Sim force (Fpto) was not fed back into the WEC-Sim code (one-way coupling). A fully two-way coupling of PTO-Sim with WEC-Sim is under development
+PTO-Sim is developed in a similar manner to WEC-Sim, as a library of different PCC components. The PTO-Sim library has been developed based on the possible PCC configurations outlined in Fig~\ref{PCC}. In the following sections, the PTO-Sim component library will be used to model a hydraulic PTO, and a direct drive PTO. WEC PCCs are complex and device specific, meaning that while some PTO models can be built directly from the PTO-Sim library, others will require custom PCC library components. For the purpose of describing the coupling between PTO-Sim and WEC-Sim, refer to Fig.~\ref{RM3}, where the WEC-Sim relative displacement and velocity outputs (zRel and zDotRel respectively) are the PTO-Sim inputs. Similarly the PTO force (Fpto) is the WEC-Sim input, and the PTO-Sim output for both PTO architectures demonstrated in this paper.  These signals are what couple WEC-Sim and PTO-Sim together. In order to demonstrate the functionality of PTO-Sim, the results presented in the following sections use a relative velocity (zDotRel) from WEC-Sim to run the PTO-Sim simulations, but the PTO-Sim force (Fpto) was not fed back into the WEC-Sim code (one-way coupling). A fully two-way coupling of PTO-Sim with WEC-Sim is under development.
 
 %Note (Kelley): Add reference to IEEE paper for Final submission (not this one)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Hydraulic PTO}
-An example of a hydraulic PTO used in a point absorber is shown in Fig. 4.  The piston position and velocity are the relative displacement and velocity between the float and the spar. The first PTO system element is a double acting hydraulic piston pump, ``P". This component directly converts the heave motion of the buoy into a pressurized, bi-directional fluid flow. The piston chamber is connected to a rectifying valve via terminals ``A" and ``B". This changes the bi-directional flow into a uni-directional flow and passes the fluid on to the rest of the system. The valves ``1" through ``4" indicate the different flow paths that perform this conversion. Valve ``1" delivers fluid to the high pressure side of the system where it is stored in the high pressure accumulator ``C". A variable displacement motor, ``M", translates the hydraulic fluid power into rotational energy. The axle of the motor is connected directly (no gearboxes) to a generator axle (``G") , causing it to spin and generate electricity. The hydraulic motor was chosen to meet the torque and speed requirements. The maximum speed the motor can spin is 2400 rpm.
-The hydraulic fluid then enters the low pressure side where accumulator ``D" provides pressure control. The piston draws fluid from ``D", completing the circuit \cite{casey2013modeling}.
+An example of a hydraulic PTO used in a point absorber is shown in Fig. 4.  The piston position and velocity are the relative displacement and velocity between the float and the spar. The first PTO system element is a double acting hydraulic piston pump, ``P". This component directly converts the heave motion of the buoy into a pressurized, bi-directional fluid flow. The piston chamber is connected to a rectifying valve via terminals ``A" and ``B". This changes the bi-directional flow into a uni-directional flow and passes the fluid on to the rest of the system. The valves ``1" through ``4" indicate the different flow paths that perform this conversion. Valve ``1" delivers fluid to the high pressure side of the system where it is stored in the high pressure accumulator ``C". A variable displacement motor, ``M", translates the hydraulic fluid power into rotational energy. The axle of the motor is connected directly (no gearboxes) to a generator axle (``G") , causing it to spin and generate electricity. The hydraulic motor was chosen to meet the torque and speed requirements. The hydraulic fluid then enters the low pressure side where accumulator ``D" provides pressure control. The piston draws fluid from ``D", completing the circuit \cite{casey2013modeling}.
 
 \begin{figure}[t]
     \centering
@@ -155,7 +145,7 @@ The hydraulic PTO model begins with the continuity equation for a compressible f
 \dot{p}_B=\frac{\beta_e}{V_o+A_pz}(-A_p\dot{z}-\dot{V_2}+\dot{V_3}) 
 \end{equation}
 
-The effective bulk modulus of the hydraulic fluid is $\beta_e$, $V_o$ is the initial volume of the cylinder, and $A_p$ is the piston area. The volumetric flow through valves 1-4 are represented by $\dot{V}_1$ through $\dot{V}_4$. The piston and buoy are rigidly connected, and their movement with respect to the spar is the input to the PTO system. The relative motion between the buoy and the spar is represented by the velocity, $\dot{z}$ (from WEC-Sim).
+The effective bulk modulus of the hydraulic fluid is $\beta_e$, $V_o$ is the volume of the piston, and $A_p$ is the piston area. The volumetric flow through valves 1-4 are represented by $\dot{V}_1$ through $\dot{V}_4$. The piston and buoy are rigidly connected, and their movement with respect to the spar is the input to the PTO system. The relative motion between the buoy and the spar is represented by the velocity, $\dot{z}$ (from WEC-Sim).
 
 The four valves in the rectifying circuit are each modeled using the orifice equation: 
 
@@ -164,9 +154,7 @@ The four valves in the rectifying circuit are each modeled using the orifice equ
 \end{equation}
 
 The subscript ``$i$" refers to the valve number. $C_d$ is the discharge coefficient and $A_v$ is the cross-section area of the orifice. Finally, $p_j$ and $p_k$ are the pressures on either side of the valve. The $tanh$ function, being differentiable, enables certain  control/optimization strategies as well as simplifying
-the calculations. 
-
-The valve area is modeled as a variable area poppet valve, with the equation:  
+the calculations. Also, the $tanh$ function multiplied by the pressure difference provides an analytic approximation to the absolute value function, where $k_1 >> 0$. The valve area is modeled as a variable area poppet valve, with the equation:  
 
 \begin{eqnarray}
 A_v &=& A_{min}+\frac{A_{max}-A_{min}}{2}+\nonumber\\
@@ -228,35 +216,35 @@ These equations are contained in PTO-Sim library blocks, representing physical c
 
 \subsubsection*{Simulations.}
 
-Figures~\ref{HydZdot} and \ref{HydP} show a sample (from 500-600 seconds) of the simulation. Figure~\ref{HydZdot} shows the system inputs, zRel (relative heave displacement) and zDotRel (relative heave velocity). Figure~\ref{HydP} shows the power produced by the PTO. The blue line, $P_{abs}$ is the power absorbed at the piston. $P_{mech}$, the power at the axle connecting the motor and generator, is shown in red. Finally, $P_{elec}$ is the electrical power at the output of the generator, is shown in yellow. The generator model is based on the characteristics of a typical large industrial induction generator. The speed, torque, and efficiency of this motor are taken from a lookup table and used as a simple rotational inertial model. 
+Figures~\ref{HydZdot} and \ref{HydP} show a sample (from 200-300 seconds) of the simulation. Figure~\ref{HydZdot} shows the system inputs, zRel (relative heave displacement) and zDotRel (relative heave velocity). Figure~\ref{HydP} shows the power produced by the PTO. The blue line, $P_{abs}$ is the power absorbed at the piston. $P_{mech}$, the power at the axle connecting the motor and generator, is shown in green. Finally, $P_{elec}$ is the electrical power at the output of the generator, is shown in red. The generator model is based on the characteristics of a typical large industrial induction generator. The speed, torque, and efficiency of this motor are taken from a lookup table and used as a simple rotational inertial model. 
 
-\textbf{Nak - use terms: absorbed, mechanical and electrical power in the text and in figures}
+Electrical power is smaller than mechanical power because the generator block is modeled such that the efficiency of output electrical power is determined by the rotational speed and torque of the generator. In other words, there are some losses in the generator.
+
+The lull in ``zDotRel" between simulation time 270 and 280 represents a fairly regular occurrence in typical seas. The near-zero velocity causes $p_j$ and $p_k$ to fall below $p_{min}$ and the rectifying valve shuts. The system response in this condition is shown in Figs.~\ref{HydF} and~\ref{HydPr}. Because the fluid is modeled as compressible and the closed valves have abruptly stopped the fluid flow, the fluid in the piston oscillates. This spring-like effect continues until the pressure exceeds $p_{min}$ \cite{falnes2005ocean}.
+
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=1\columnwidth]{Images/zRelzDotRel} %DDzDot
-    \caption{Relative position and velocity for a wave of 3 meters with a period of 8 seconds.}
+    \includegraphics[width=1\columnwidth]{Images/zDot} %DDzDot
+    \caption{Piston velocity for a wave of 3 meters with a dominant period of 11 seconds.}
     \label{HydZdot}
     \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=1\columnwidth]{Images/HYDPower}
+    \includegraphics[width=1\columnwidth]{Images/Power}
     \caption{Absorbed, mechanical, and electrical power. }
     \label{HydP}
     \end{figure}
 
 %The hydraulic power can reach negative values when the relative heave velocity is close to zero but its  average value is typically larger than the electrical power because there are some losses in the valves. A negative value presented in Fig.~\ref{HydP} means that the hydraulic PTO is releasing energy to the buoy at some instants. This event is typically related to phase control system that when the control accumulators are activated, the hydraulic PTO is therefore releasing large amount of energy to the buoy. As a result, it is due to the large volumes chosen for the high and low pressure accumulators and it has been seen that smaller accumulators would determine larger output variations \cite{yukio2014modeling}.
 
-% Kelley - omit this section, add back in content from irregular wave cases
-\textbf{Nak - add irregular wave content back} \\
 
-The system response is shown in Figs.~\ref{HydF} and~\ref{HydPr}. When the pressure exceeds $p_{min}$, the valves will open. This hydraulic system therefore manifests an intrinsic latching control \cite{falnes2005ocean}.
 
 \begin{figure}[t]
     \centering
     \includegraphics[width=1\columnwidth]{Images/ptoForce}
-    \caption{Force applied by the PTO.}
+    \caption{PTO force generated by the hydraulic PTO.}
     \label{HydF}
     \end{figure}
 
@@ -266,8 +254,6 @@ The system response is shown in Figs.~\ref{HydF} and~\ref{HydPr}. When the press
     \caption{Piston pump and accumulators pressures. A check valve is open when either the top or bottom piston pressure is greater than the high pressure accumulator or less than the low pressure accumulator.}
     \label{HydPr}
     \end{figure}
-
-\subsubsection*{Analysis.}    \textbf{Nak - add irregular wave content back}
 
  % Kelley - omit this section and figure, add back in content from irregular wave cases
 
@@ -284,7 +270,7 @@ The system response is shown in Figs.~\ref{HydF} and~\ref{HydPr}. When the press
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{DIRECT DRIVE PTO}
-Alternative to hydraulics, the direct drive power take off has less moving parts which allows a generator to capture power directly from the WEC movement. In this architecture, the PTO uses the direct buoy motion to drive the generator. The stator portion of the generator is contained in the WEC spar, while the buoy contains the magnets. This concept is illustrated in Fig.~\ref{L10}, and modeled using PTO-Sim in  Fig.~\ref{DD}. The buoy movement causes the magnetic field surrounding the coils to change, the fundamental method for generating electricity. While this architecture has fewer power transformation stages and moving parts, it also has no inherent power storage capability (unlike the hydraulic system).
+Alternative to hydraulics, the direct drive power take off has less moving parts which allows a generator to capture power directly from the WEC movement. In this architecture, the PTO uses the relative heave velocity to drive the generator. The stator portion of the generator is contained in the WEC spar, while the buoy contains the magnets. This concept is illustrated in Fig.~\ref{L10}, and modeled using PTO-Sim in  Fig.~\ref{DD}. The relative heave velocity causes the magnetic field surrounding the coils to change, the fundamental method for generating electricity. While this architecture has fewer power transformation stages and moving parts, it also has no inherent power storage capability (unlike the hydraulic system).
 
 The direct drive approach can be constructed to deliver single or multiple-phase power by the arrangement of the generator magnets and coils. A three-phase winding was used in this model, enabling a valid comparison with the hydraulic model.  
 
@@ -294,9 +280,9 @@ T_{em}=k(\lambda_{sd}i_{sq}- \lambda_{sq}i_{sd})
 \end{equation}
 \noindent where $k = P/2$ for rotational generator and $k = \pi/\tau_{pm}$ for a linear generator. $P$ is the number of poles ($P$ is greater or equal to 2, even number). $\tau_{pm}$ is the magnet pole pitch (the distance measured of the magnet from the center of one pole to the center of the next pole). The generator is modeled in the synchronous reference frame, where $\lambda_{sd}$ is the stator d-axis flux linkage, $i_{sq}$ is the stator q-axis current, $\lambda_{sq}$ is the stator q-axis flux linkage, and $i_{sd}$ is the stator d-axis current.  Derivation can be found in \cite{mohan2001advanced}.
 
-Assuming the d-axis is aligned with the stator flux such that $\lambda_{sq} = 0$, Eq.(10) leads to Eq.(11), which describes the electromagnetic force for a linear electric machine. 
+Assuming the d-axis is aligned with the stator flux such that $\lambda_{sq} = 0$, Eq.(10) leads to Eq.(11), which describes the PTO force for a linear electric machine. 
 \begin{equation}
-F_{em}=(\pi/\tau_{pm})\lambda_{fd}i_{sq}
+F_{pto}=(\pi/\tau_{pm})\lambda_{fd}i_{sq}
 \end{equation}
 
 \begin{figure}[t]
@@ -333,8 +319,7 @@ The equivalent electrical circuit (Fig.~\ref{EMF}) shows the relationship betwee
     \end{figure}
 
 \subsubsection*{Simulations.}
- \textbf{Nak - add irregular wave content back}
-The PTO was developed and verified with the use of \textbf{irregular} waves and the analysis can be focused on understanding the electrical power generated by the system. WEC-Sim is coupled with a direct drive PTO and the relative heave velocity (zDotRel) is used as an input for the direct drive PTO model. 
+The PTO was developed and verified with the use of regular waves. Once verified, irregular waves are applied, and the analysis can be focused on understanding the electrical power generated by the system. The same ``zDotRel" is used as an input for the direct drive PTO model as was used for the hydraulic PTO, see Fig.~\ref{HydZdot}.  
 
 %\begin{figure}[t]
 %    \centering
@@ -343,7 +328,7 @@ The PTO was developed and verified with the use of \textbf{irregular} waves and 
 %    %\label{fig-freq-comparison}
 %    \end{figure}
 
-The PTO force, shown in Fig.~\ref{DD_Fpto}, produced by the ``Electric Machine" model \textbf{Nak - What does this mean?} directly follows the relative velocity because of the nature of the direct drive design. Figures~\ref{voltage} and~\ref{current} show voltage and current in the external load. It should be noted that the magnitude of the voltage and current depends on the wave climate, and the WEC design parameters \cite{prudell2009novel}.  The absorbed and electric power are shown in Fig.~\ref{DDP}. 
+The PTO force, derived in (11), directly follows the relative velocity because of the nature of the direct drive design (no energy storage). Figures~\ref{voltage} and~\ref{current} show voltage and current in the external load. It should be noted that the magnitude of the voltage and current depends on the wave climate, and the WEC design parameters \cite{prudell2009novel}.  The absorbed and electric power are shown in Fig.~\ref{DDP}. 
 
 \begin{figure}[t]
     \centering
@@ -361,7 +346,7 @@ The PTO force, shown in Fig.~\ref{DD_Fpto}, produced by the ``Electric Machine" 
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=1\columnwidth]{Images/DDIabc}
+    \includegraphics[width=1\columnwidth]{Images/DDIabcZoom}
     \caption{Direct drive 3-phase current.}
     \label{current}
     \end{figure}
@@ -379,7 +364,11 @@ The PTO force, shown in Fig.~\ref{DD_Fpto}, produced by the ``Electric Machine" 
 
 The usefulness of the PTO-Sim tool is exemplified by comparing the results from the two different architectures. The output electrical power for each PTO architecture is normalized and plotted in Fig.~\ref{Pnorm}. This figure clearly shows the native storage capability of the hydraulic system, which manifests as a smoother power profile. In contrast, the direct drive architecture power output is a direct reflection of the incident sea state. 
 
-\textbf{Nak - Add more content and description here}
+Although Fig.~\ref{Pnorm} shows a comparison between the two PTOs, it is hard to determine which PTO system yields more power because in order to do so, the direct drive system would need to have a storage. The purpose of this comparison is to show that each PTO has its pros and cons. 
+
+Current WEC-Sim allows the user to get an idea of what the power production will be; with little knowledge of drivetrains/power electronics, etc. However, if the user wants to design a PCC and compare the benefits of different PCC options, that is where PTO-Sim will come to play. It should be noted that, this obviously requires the user to be more knowledgeable and careful when designing the PTO model. Therefore, the goal of designing PTO-Sim is to abstract the end-user from the details but to make the wave energy converter more accessible.
+ 
+
 
 \begin{figure}[t]
     \centering
