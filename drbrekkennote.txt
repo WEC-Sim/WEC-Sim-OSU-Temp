@@ -1,0 +1,3 @@
+Try this.  This is modeling the output capacitor as two series capacitors, with the midpoint connected to the AC ground.  This is a very common technique.
+
+Be careful of modeling the diodes too.  If the Is is not the right value, the effective gain will be too large and the simulation will not be stable.  Adding a small series resistance to the diode can help with that.
